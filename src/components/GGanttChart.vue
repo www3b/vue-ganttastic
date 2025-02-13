@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="display: flex">
     <div :class="[{ 'labels-in-column': !!labelColumnTitle }]">
       <g-gantt-label-column
         v-if="labelColumnTitle"
@@ -268,7 +268,6 @@ provide(EMIT_BAR_EVENT_KEY, emitBarEvent)
   position: relative;
   display: flex;
   flex-direction: column;
-  overflow-x: hidden;
   -webkit-touch-callout: none;
   user-select: none;
   font-variant-numeric: tabular-nums;

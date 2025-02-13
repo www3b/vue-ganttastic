@@ -33,12 +33,16 @@ const getChartRows = provideGetChartRows()
 
 <style>
 .g-label-column {
+  z-index: 10;
   display: flex;
   align-items: center;
   flex-direction: column;
   color: rgb(64, 64, 64);
   font-variant-numeric: tabular-nums;
   font-size: 0.9em;
+  background-color: white;
+  position: sticky;
+  left: 0;
 }
 
 .g-label-column-header {
