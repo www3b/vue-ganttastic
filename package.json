@@ -13,7 +13,8 @@
     "lint:fix": "npm run lint --fix",
     "docs:build": "vitepress build docs",
     "docs:dev": "vitepress dev docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:preview": "vitepress preview docs",
+    "prepare": "npm run build"
   },
   "type": "module",
   "exports": {
